@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+    body {
+    font-family: Arial, sans-serif;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+#home header{
+    height: 90px;
+    background-color: rgb(30, 35, 126);
+    padding: 20px;
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+    h1{
+        margin: 20px;
+        padding: 20opx;
+    }
+      .ubuntu-regular {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .ubuntu-medium {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .ubuntu-bold {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .ubuntu-light-italic {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .ubuntu-regular-italic {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .ubuntu-medium-italic {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .ubuntu-bold-italic {
+        font-family: "Ubuntu", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+#home header .wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+#home header .wrapper .left h1 img{
+    
+    width: 100px;
+    filter: drop-shadow(5px 10px 15px );
+}
+
+.navbar{
+    background-color: rgb(30, 35, 126);
+}
+.navbar-brand{
+    color: white;
+}
+.card mb-4 python{
+  width: 100px;
+}
